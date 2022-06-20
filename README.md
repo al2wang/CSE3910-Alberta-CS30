@@ -1,1 +1,3 @@
-## Object Oriented Programming $\text{PROJECT 3}$
+## Object Oriented Programming
+
+$\text{PROJECT 3}$
