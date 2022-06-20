@@ -17,12 +17,12 @@ function coupSequence(num) {
 // take n-th term input from the user
 const nTerm = prompt('Generate which term number?');
 
-if (nTerm <=0) {
+if (nTerm <= 0) {
   console.log('Enter a positive integer.');
 }
 else {
   console.log(coupSequence(nTerm));
-    }
+}
 
-console.log('Term #'+nTerm+' is '+coupSequence(nTerm));
+console.log("Term #" + nTerm + " is " + coupSequence(nTerm));
 console.log("Program complete. The recursive function ran " + recursiveruns + " times.")
