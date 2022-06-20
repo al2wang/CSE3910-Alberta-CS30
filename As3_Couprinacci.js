@@ -1,7 +1,7 @@
-  let recursiveruns = 0;
+let recursiveruns = 0;
 function coupSequence(num) {
   recursiveruns++;
-  if (num <= 3){
+  if (num <= 3) {
     if (num == 1)
       return 3;
     if (num == 2)
@@ -14,11 +14,11 @@ function coupSequence(num) {
     }
 }
 
-// take nth term input from the user
-const nTerm = prompt('Generate which term number? ');
+// take n-th term input from the user
+const nTerm = prompt('Generate which term number?');
 
-if(nTerm <=0) {
-    console.log('Enter a positive integer.');
+if (nTerm <=0) {
+  console.log('Enter a positive integer.');
 }
 else {
   console.log(coupSequence(nTerm));
